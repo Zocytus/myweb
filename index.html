@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Nguyễn Bá Tùng</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Trang Chủ</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Theme Change Button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Tôi Là</span>
+                    <h1 class="home__name">Nguyễn Bá Tùng</h1>
+                    <h3 class="home__education">Graphic Designer<br>Frontend Developer<br><br>
+
+                        <div class="home__buttons">
+                            <a href="./cv.html" class="button button--ghost" target="_blank">
+                                Xem CV
+                            </a>
+                            <a href="#about" class="button">Giới Thiệu</a>
+                        </div>
+                </div>
+                <div class="home__handle">
+                    <img src="./assets/img/perfil.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/tungba1234/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCMjm2PliqXcoVkk1GUQ4SIg" target="_blank"
+                        class="home__social-link">
+                        <i class='bx bxl-youtube'></i>
+                    </a>
+
+                    <a href="https://www.behance.net/tngnguyn74" target="_blank" class="home__social-link">
+                        <i class='bx bxl-behance'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Trượt Xuống</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">Giới Thiệu</span>
+            <h2 class="section__title">Tôi</h2>
+
+            <div class="about__container container grid">
+                <img src="./assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Kinh Nghiệm</h3>
+                            <span class="about__subtitle">1 + Năm Làm Việc</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase about__icon'></i>
+                            <h3 class="about__title">Hoàn Thành</h3>
+                            <span class="about__subtitle">2 + Dự Án</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bxs-building-house about__icon'></i>
+                            <h3 class="about__title">Đã Từng</h3>
+                            <span class="about__subtitle">Làm Việc Tại 0 Công Ty Khác Nhau</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Tôi cố gắng trở thành một studio thực thụ , bằng việc tự mình học hỏi nhiều công nghệ cũng như
+                        công cụ khác nhau của ngành công nghệ thông tin , cụ thể là : thiết kế đồ họa , làm game , thiết
+                        kế web.
+                    </p>
+
+                    <a href="#contact" class="button">Liên Lạc</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">Kỹ Năng</span>
+            <h2 class="section__title">Kinh Ngiệm Của Tôi</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Graphic Designer</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-check-circle'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Photoshop</h3>
+                                    <span class="skills__level">Am Hiểu</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bx-check-circle'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Illustrator</h3>
+                                    <span class="skills__level">Cơ Bản</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-check-circle'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Premiere</h3>
+                                    <span class="skills__level">Cơ Bản</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bx-check-circle'></i>
+
+                                <div>
+                                    <h3 class="skills__name">After Effect</h3>
+                                    <span class="skills__level">Cơ Bản</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">FontEnd Developer</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-check-circle'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Cơ Bản</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bx-check-circle'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Cơ Bản</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-check-circle'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Cơ Bản</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bx-check-circle'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Cơ Bản</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">Dịch Vụ</span>
+
+            <h2 class="section__title">Cung Cấp Các Dịch Vụ</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Thiết Kế <br> Đồ Họa</h3>
+
+                    <span class="services__button">
+                        Xem thêm <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">Thiết Kế Đồ Họa</h3>
+
+                            <p class="services__modal-description">
+                                Với kinh nghiệm hơn 2 năm trong lĩnh vực thiết kế đồ họa
+                                tôi có thể.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Thiết kế banner, poster , name card, các sản phẩm
+                                        in ấn theo yêu cầu
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Phục vụ 24/7.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Hỗ trợ chỉnh sữa file theo yều.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        sau khi hoàn thành bàn giao lại các file thiết kế theo yêu cầu của khách hàng.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Thiết Kế <br> Web</h3>
+
+                    <span class="services__button">
+                        Xem thêm <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">Thiết Kế Giao Diện Web</h3>
+
+                            <p class="services__modal-description">
+                                Với kinh nghiệm hơn 2 năm trong lĩnh vực thiết kế đồ họa
+                                dành cho web tôi có thể.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Thiết kế giao diện web theo yêu cầu của khách hàng.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Thiết kế giao diện trực quan dễ nhìn.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Thiết kế bố cục màu sắc theo ý muốn của khách hàng
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Bàn giao lại file và các sản phẩm theo yêu cầu của khách hàng.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Thiết kế mockups website cho công ty.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">Chỉnh Sửa <br> Video</h3>
+
+                    <span class="services__button">
+                        Xem thêm <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">Chỉnh Sửa Video</h3>
+
+                            <p class="services__modal-description">
+                                Với kinh nghiệm hơn 2 năm trong lĩnh vực chỉnh sữa video
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Thiế kế video quảng cáo
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Chỉnh sửa video theo yêu cầu của khách hàng
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Thêm các hiệu ứng , bố cục màu sắc theo yêu cầu của khách hàng.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Làm video animation.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Bàn giao lại file và các sản phẩm theo yêu cầu của khách hàng.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__subtitle">Sản Phẩm Nổi Bật</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".web">Đồ Họa</span>
+                <span class="work__item" data-filter=".movil">Web</span>
+                <span class="work__item" data-filter=".behance">Behance</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="./assets/img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Thết Kế Đồ Họa</h3>
+                    <a href="./2d.html" target="_blank" class="work__button">
+                        Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="./assets/img/work4.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Edit Video</h3>
+                    <a href="./video.html" target="_blank" class="work__button">
+                        Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="./assets/img/work5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Thiết Kế Web</h3>
+                    <a href="./web.html" target="_blank" class="work__button">
+                        Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix behance">
+                    <img src="./assets/img/work5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Một Số Dự Án Nổi Bật Tại Behance</h3>
+                    <a href="https://www.behance.net/tngnguyn74" target="_blank" class="work__button">
+                        Sản Phẩm <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Liên Lạc</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Kết Nối Với Tôi</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">tungba56910@gmail.com</span>
+
+                            <a href="mailto:examplemail@correo.com" target="_blank" class="contact__button">
+                                Kết Nối <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxs-phone-call contact__card-icon'></i>
+                            <h3 class="contact__card-title">Phone</h3>
+                            <span class="contact__card-data">0328 24 6814</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=0328246814&text=Hello" target="_blank"
+                                class="contact__button">
+                                Kết Nối <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-messenger contact__card-icon'></i>
+                            <h3 class="contact__card-title">Messenger</h3>
+                            <span class="contact__card-data">Bá Tùng</span>
+
+                            <a href="https://m.me/bedimcode" target="_blank" class="contact__button">
+                                Kết Nối <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Để Lại Lời Nhắn</h3>
+
+                    <form action="" class="contact__form" id="form-1">
+                        <div class="contact__form-div">
+                            <label for="fullname" class="contact__form-tag">Tên</label>
+                            <input id="fullname" name="fullname" type="text" placeholder="Tên của bạn"
+                                class="contact__form-input">
+                            <span class="form-message"></span>
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Email</label>
+                            <input id="email" name="email" type="text" placeholder="Địa chỉ email"
+                                class="contact__form-input">
+                            <span class="form-message"></span>
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Lời nhắn</label>
+                            <textarea name="message" id="message" cols="30" rows="10" class="contact__form-input"
+                                placeholder="Vui lòng để lại lời nhắn"></textarea>
+                            <span class="form-message"></span>
+                        </div>
+
+                        <button class="button form-submit">Gửi Tin Nhắn</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Tùng</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Trang Chủ</a>
+                </li>
+                <li>
+                    <a href="#about" class="footer__link">Giới Thiệu</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Sản Phẩm</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/tungba1234/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://www.behance.net/tngnguyn74" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-behance'></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCMjm2PliqXcoVkk1GUQ4SIg" target="_blank"
+                    class="footer__social-link">
+                    <i class='bx bxl-youtube'></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Nguyễn Bá Tùng. All rights reserved
+            </span>
+        </div>
+    </footer>
+    <div id="toast"></div>
+    <!-- FORM VALIDATOR -->
+    <script src="./assets/js/validator.js"></script>
+    <script>
+        Validator({
+            form: '#form-1',
+            formGroupSelector: '.contact__form-div',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#fullname', 'Vui lòng nhập tên'),
+                Validator.isRequired('#email', 'Vui lòng nhập địa chỉ email'),
+                Validator.isEmail('#email', 'Địa chỉ email không hợp lệ'),
+                Validator.isRequired('#message', 'Vui lòng nhập nhập lời nhắn'),
+            ],
+            onSubmit: function (data) {
+                console.log(data);
+            }
+        });
+    </script>
+    <!-- TOAST MESENGES -->
+    <script src="./assets/js/toast.js"></script>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
